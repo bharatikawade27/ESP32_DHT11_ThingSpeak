@@ -12,6 +12,7 @@ This project uses an ESP32 and DHT11 sensor to measure temperature and humidity.
 - Wi-Fi connection
 
 ## Circuit Connections
+![Circuit Connection](circuit.png)
 
 | DHT11 | ESP32 |
 |---|---|
@@ -33,7 +34,7 @@ Check the pin labels on your particular sensor module before connecting it.
 3. Enable Field 2 and name it Humidity.
 4. Obtain your Channel ID and Write API Key.
 5. Enter your credentials locally in the Arduino sketch.
-
+![ThingSpeak Dashboard](thingspeak_dashboard.png)
 **Security:** Never publish your actual Wi-Fi password or ThingSpeak Write API Key.
 
 ## Execution Steps
@@ -47,6 +48,7 @@ Check the pin labels on your particular sensor module before connecting it.
 
 ## Expected Output
 Example values; actual readings will vary.
+![Serial Monitor Output](serial_monitor_output.png)
 
 ```text
 Temperature: 30.80 °C

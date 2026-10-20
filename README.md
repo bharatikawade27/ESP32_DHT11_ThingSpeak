@@ -34,9 +34,8 @@ Check the pin labels on your particular sensor module before connecting it.
 3. Enable Field 2 and name it Humidity.
 4. Obtain your Channel ID and Write API Key.
 5. Enter your credentials locally in the Arduino sketch.
-![ThingSpeak Dashboard](thingspeak_dashboard.png)
 **Security:** Never publish your actual Wi-Fi password or ThingSpeak Write API Key.
-
+![ThingSpeak Dashboard](thingspeak-dashboard.png)
 ## Execution Steps
 1. Connect the DHT11 to the ESP32.
 2. Open the Arduino sketch in Arduino IDE.
